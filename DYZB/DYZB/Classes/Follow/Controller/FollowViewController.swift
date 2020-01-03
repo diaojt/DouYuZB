@@ -1,5 +1,5 @@
 //
-//  ProfileViewController.swift
+//  FollowViewController.swift
 //  DYZB
 //
 //  Created by Smy_D on 2020/1/2.
@@ -8,12 +8,13 @@
 
 import UIKit
 
-class ProfileViewController: UITabBarController {
+class FollowViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+
 
 }
