@@ -12,6 +12,11 @@
 		F30EFF9323BF0EED00C401B7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30EFF9223BF0EED00C401B7 /* Common.swift */; };
 		F30EFF9523BF131E00C401B7 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30EFF9423BF131E00C401B7 /* UIColor+Extension.swift */; };
 		F30EFF9723BF325A00C401B7 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30EFF9623BF325A00C401B7 /* PageContentView.swift */; };
+		F30EFF9923C1DC2100C401B7 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30EFF9823C1DC2100C401B7 /* RecommendViewController.swift */; };
+		F30EFF9C23C1E3EC00C401B7 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30EFF9A23C1E3EC00C401B7 /* CollectionHeaderView.swift */; };
+		F30EFF9D23C1E3EC00C401B7 /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F30EFF9B23C1E3EC00C401B7 /* CollectionHeaderView.xib */; };
+		F30EFFA023C1EAB200C401B7 /* CollectionViewNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30EFF9E23C1EAB200C401B7 /* CollectionViewNormalCell.swift */; };
+		F30EFFA123C1EAB200C401B7 /* CollectionViewNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F30EFF9F23C1EAB200C401B7 /* CollectionViewNormalCell.xib */; };
 		F3AF2F1D23BDCD35005B6FD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AF2F1C23BDCD35005B6FD0 /* AppDelegate.swift */; };
 		F3AF2F2623BDCD37005B6FD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3AF2F2523BDCD37005B6FD0 /* Assets.xcassets */; };
 		F3AF2F2923BDCD37005B6FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3AF2F2723BDCD37005B6FD0 /* LaunchScreen.storyboard */; };
@@ -34,6 +39,11 @@
 		F30EFF9223BF0EED00C401B7 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		F30EFF9423BF131E00C401B7 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		F30EFF9623BF325A00C401B7 /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		F30EFF9823C1DC2100C401B7 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		F30EFF9A23C1E3EC00C401B7 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		F30EFF9B23C1E3EC00C401B7 /* CollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		F30EFF9E23C1EAB200C401B7 /* CollectionViewNormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewNormalCell.swift; sourceTree = "<group>"; };
+		F30EFF9F23C1EAB200C401B7 /* CollectionViewNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewNormalCell.xib; sourceTree = "<group>"; };
 		F3AF2F1923BDCD35005B6FD0 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AF2F1C23BDCD35005B6FD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3AF2F2523BDCD37005B6FD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -192,6 +202,8 @@
 		F3B496EC23BEEBA500914B18 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F30EFF9E23C1EAB200C401B7 /* CollectionViewNormalCell.swift */,
+				F30EFF9F23C1EAB200C401B7 /* CollectionViewNormalCell.xib */,
 				F30EFF9023BEF84A00C401B7 /* PageTitleView.swift */,
 				F30EFF9623BF325A00C401B7 /* PageContentView.swift */,
 			);
@@ -203,6 +215,7 @@
 			children = (
 				F3AF2F4423BDF404005B6FD0 /* HomeViewController.swift */,
 				F3B496FB23BEEC7F00914B18 /* Home.storyboard */,
+				F30EFF9823C1DC2100C401B7 /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -210,6 +223,8 @@
 		F3B496EE23BEEBC000914B18 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F30EFF9A23C1E3EC00C401B7 /* CollectionHeaderView.swift */,
+				F30EFF9B23C1E3EC00C401B7 /* CollectionHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -349,9 +364,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3AF2F2923BDCD37005B6FD0 /* LaunchScreen.storyboard in Resources */,
+				F30EFF9D23C1E3EC00C401B7 /* CollectionHeaderView.xib in Resources */,
 				F3AF2F2623BDCD37005B6FD0 /* Assets.xcassets in Resources */,
 				F3B4970023BEECC400914B18 /* Profile.storyboard in Resources */,
 				F3B496FE23BEECA300914B18 /* Follow.storyboard in Resources */,
+				F30EFFA123C1EAB200C401B7 /* CollectionViewNormalCell.xib in Resources */,
 				F3B496FA23BEEC3B00914B18 /* MainStoryboard.storyboard in Resources */,
 				F3B4970223BEECF400914B18 /* Live.storyboard in Resources */,
 				F3B496FC23BEEC8000914B18 /* Home.storyboard in Resources */,
@@ -369,12 +386,15 @@
 				F3AF2F4923BDF41F005B6FD0 /* ProfileViewController.swift in Sources */,
 				F30EFF8F23BEF06900C401B7 /* UIBarButtonItem-Extension.swift in Sources */,
 				F30EFF9523BF131E00C401B7 /* UIColor+Extension.swift in Sources */,
+				F30EFF9923C1DC2100C401B7 /* RecommendViewController.swift in Sources */,
 				F3AF2F4523BDF404005B6FD0 /* HomeViewController.swift in Sources */,
 				F3AF2F5523BDF89C005B6FD0 /* MainViewController.swift in Sources */,
 				F3AF2F4B23BDF42D005B6FD0 /* LiveViewController.swift in Sources */,
+				F30EFFA023C1EAB200C401B7 /* CollectionViewNormalCell.swift in Sources */,
 				F30EFF9723BF325A00C401B7 /* PageContentView.swift in Sources */,
 				F30EFF9123BEF84A00C401B7 /* PageTitleView.swift in Sources */,
 				F3AF2F4723BDF412005B6FD0 /* FollowViewController.swift in Sources */,
+				F30EFF9C23C1E3EC00C401B7 /* CollectionHeaderView.swift in Sources */,
 				F30EFF9323BF0EED00C401B7 /* Common.swift in Sources */,
 				F3B496E923BEE27500914B18 /* CustomNavigationController.swift in Sources */,
 			);
